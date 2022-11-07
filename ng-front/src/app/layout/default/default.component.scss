@@ -1,0 +1,39 @@
+mat-toolbar {
+  background: #2D3541;
+  color: white;
+}
+.close_button{
+  background: #2D3541;
+  color: white;
+}
+mat-sidenav {
+  margin: 16px;
+  width: 220px;
+  border-right: none;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  box-shadow:0 2px 10px 0 rgba(45,53,65,0.2);
+}
+
+.content {
+  height: calc(100vh - 130px);
+  border-radius: 5px;
+  margin: 16px 16px 16px 32px;
+  padding: 16px;
+  overflow: auto;
+}
+
+mat-sidenav-container {
+  height: calc(100vh - 65px);
+}
+
+
+
+mat-divider {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: rgba(255, 255, 255, 0.5);
+}

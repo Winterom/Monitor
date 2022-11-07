@@ -1,0 +1,35 @@
+<img
+  class="avatar mat-elevation-z8"
+  src="../../../assets/image/male-profile.png"
+/>
+
+<h4 class="name">{{fioString}}</h4>
+<p class="designation">{{roleString}}</p>
+
+<mat-divider></mat-divider>
+<button mat-button class="menu-button" [routerLink]="['']">
+  <mat-icon>tv</mat-icon>
+  <span>Панель</span>
+</button>
+<button mat-button class="menu-button" [routerLink]="['vent']" routerLinkActive="active-link">
+  <mat-icon>camera</mat-icon>
+  <span>Вентиляция</span>
+</button>
+<button mat-button class="menu-button" [routerLink]="['itp']" routerLinkActive="active-link">
+  <mat-icon>settings_input_component</mat-icon>
+  <span>ИТП</span>
+</button>
+<mat-divider></mat-divider>
+<button mat-button class="menu-button" [routerLink]="['settings']" routerLinkActive="active-link">
+  <mat-icon>settings_input_svideo</mat-icon>
+  <span>Настройки</span>
+</button>
+<button mat-button class="menu-button" [routerLink]="['users']" routerLinkActive="active-link">
+  <mat-icon>group</mat-icon>
+  <span>Пользователи</span>
+</button>
+<mat-divider></mat-divider>
+<button mat-button class="menu-button" [routerLink]="['profile']" routerLinkActive="active-link">
+  <mat-icon>person</mat-icon>
+  <span>Профиль</span>
+</button>
