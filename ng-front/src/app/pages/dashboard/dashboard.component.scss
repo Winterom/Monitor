@@ -1,5 +1,10 @@
 .container{
   margin-top: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.table-title{
+  margin-top: 25px;
+  text-align: center;
 }

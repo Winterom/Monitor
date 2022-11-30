@@ -1,0 +1,5 @@
+CREATE TABLE plc_profiles
+(
+    id   BIGSERIAL PRIMARY KEY,
+    name VARCHAR(30) NOT NULL
+)

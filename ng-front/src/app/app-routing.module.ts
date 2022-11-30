@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
 import {DefaultComponent} from "./layout/default/default.component";
 import {DashboardComponent} from "./pages/dashboard/dashboard.component";
 import {VentilationComponent} from "./pages/ventilation/ventilation.component";

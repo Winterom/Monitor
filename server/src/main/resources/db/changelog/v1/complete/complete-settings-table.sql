@@ -1,0 +1,1 @@
+INSERT INTO settings (organization_name) VALUES ('Государственное бюджетное образовательное учреждение "Школа №199"')

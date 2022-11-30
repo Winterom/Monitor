@@ -1,0 +1,33 @@
+.container-card{
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0.2em 0.2em 2px rgba(122,122,122,0.5);
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  line-height: 160%;
+  vertical-align: middle;
+  padding: 10px;
+  margin: 10px;
+}
+.content{
+  font-size: 4ex;
+  margin: auto;
+}
+.count{
+  margin: auto;
+  font-size: 10ex;
+}
+.color-blue{
+  background: rgba(50, 31, 219);
+}
+.color-yellow{
+  background: rgba(249, 177, 21);
+}
+.color-azure{
+  background: rgba(51, 153, 255);
+}
+.color-red{
+  background: rgba(229, 83, 83);
+}

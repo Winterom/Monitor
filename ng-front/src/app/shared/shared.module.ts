@@ -1,17 +1,20 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { HeaderComponent } from './header/header.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {HeaderComponent} from './header/header.component';
+import {SidebarComponent} from './sidebar/sidebar.component';
 import {BreadcrumbComponent} from "./breadcrumb/breadcrumb.component";
 import {MatIconModule} from "@angular/material/icon";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatButtonModule} from "@angular/material/button";
 import {RouterModule} from "@angular/router";
 import {MatDividerModule} from "@angular/material/divider";
-import { VentStatusTableComponent } from './widgets/vent-status-table/vent-status-table.component';
 import {MatTableModule} from "@angular/material/table";
-import { ItpStatusCardComponent } from './widgets/itp-status-card/itp-status-card.component';
-
+import {MonitorCardComponent} from './widgets/monitor-card/monitor-card.component';
+import {VentCardComponent} from './widgets/vent-card/vent-card.component';
+import {ItpCardComponent} from './widgets/itp-card/itp-card.component';
+import {MatCardModule} from "@angular/material/card";
+import {LastEventTableComponent} from './widgets/last-event-table/last-event-table.component';
+import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 
 
 @NgModule({
@@ -19,8 +22,10 @@ import { ItpStatusCardComponent } from './widgets/itp-status-card/itp-status-car
     HeaderComponent,
     SidebarComponent,
     BreadcrumbComponent,
-    VentStatusTableComponent,
-    ItpStatusCardComponent
+    MonitorCardComponent,
+    VentCardComponent,
+    ItpCardComponent,
+    LastEventTableComponent,
   ],
   imports: [
     CommonModule,
@@ -29,14 +34,18 @@ import { ItpStatusCardComponent } from './widgets/itp-status-card/itp-status-car
     MatButtonModule,
     RouterModule,
     MatDividerModule,
-    MatTableModule
+    MatTableModule,
+    MatCardModule,
+    MatProgressSpinnerModule
   ],
   exports: [
     HeaderComponent,
     SidebarComponent,
     BreadcrumbComponent,
-    VentStatusTableComponent,
-    ItpStatusCardComponent
+    MonitorCardComponent,
+    VentCardComponent,
+    ItpCardComponent,
+    LastEventTableComponent,
   ]
 })
 export class SharedModule { }

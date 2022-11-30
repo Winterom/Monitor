@@ -1,0 +1,1 @@
+INSERT INTO plc_profiles (name) VALUES ('Основная венустановка');
